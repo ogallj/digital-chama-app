@@ -1055,8 +1055,8 @@ const App: React.FC = () => {
                             </div>
                             <div className="md:w-1/2 relative">
                                 <img
-                                    src="https://readdy.ai/api/search-image?query=Kenyan%20women%20in%20colorful%20traditional%20clothing%20sitting%20in%20circle%20under%20tree%20discussing%20finances%20with%20mobile%20phones%2C%20rural%20setting%2C%20bright%20sunlight%2C%20positive%20community%20atmosphere%2C%20high%20quality%20professional%20photography&width=600&height=800&seq=7&orientation=portrait"
-                                    alt="M-Chama Community"
+                                    src="/common/images/cta-image.png"
+                                        alt="M-Chama Community"
                                     className="w-full h-full object-cover object-top"
                                 />
                                 <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
