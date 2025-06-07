@@ -916,7 +916,7 @@ const App: React.FC = () => {
                     <div className="grid md:grid-cols-2 gap-12 items-center">
                         <div>
                             <img
-                                src="/images/m-chama-security.png"
+                                src="https://www.freepik.com/free-ai-image/street-market-night_222206187.htm#fromView=search&page=1&position=2&uuid=538a03c2-c1f5-41a3-9fb3-35f65f7d037a&query=+masaai+community+gathered+under+tree"
                                     alt="M-Chama Security"
                                 className="w-full rounded-lg shadow-lg"
                             />
