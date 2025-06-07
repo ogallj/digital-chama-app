@@ -916,8 +916,7 @@ const App: React.FC = () => {
                     <div className="grid md:grid-cols-2 gap-12 items-center">
                         <div>
                             <img
-                                src="https://readdy.ai/api/search-image?query=Digital%20security%20concept%20with%20Kenyan%20business%20people%20reviewing%20secure%20financial%20data%20on%20tablet%2C%20office%20setting%2C%20focus%20on%20security%20elements%2C%20professional%20attire%2C%20serious%20expressions%2C%20high%20quality%20professional%20photography&width=600&height=400&seq=6&orientation=landscape"
-                                alt="M-Chama Security"
+                                src=alt="M-Chama Security"
                                 className="w-full rounded-lg shadow-lg"
                             />
                         </div>
