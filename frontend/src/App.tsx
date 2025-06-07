@@ -916,7 +916,7 @@ const App: React.FC = () => {
                     <div className="grid md:grid-cols-2 gap-12 items-center">
                         <div>
                             <img
-                                src="/images/m-chama-security.png"
+                                src="/frontend/src/assets/images/m-chama-security.png"
                                     alt="M-Chama Security"
                                 className="w-full rounded-lg shadow-lg"
                             />
@@ -1055,7 +1055,7 @@ const App: React.FC = () => {
                             </div>
                             <div className="md:w-1/2 relative">
                                 <img
-                                    src="/images/community.png"
+                                    src="/frontend/src/assets/images/community.png"
                                         alt="M-Chama Community"
                                     className="w-full h-full object-cover object-top"
                                 />
