@@ -1055,7 +1055,7 @@ const App: React.FC = () => {
                             </div>
                             <div className="md:w-1/2 relative">
                                 <img
-                                    src="/common/images/cta-image.png"
+                                    src="/community.png"
                                         alt="M-Chama Community"
                                     className="w-full h-full object-cover object-top"
                                 />
