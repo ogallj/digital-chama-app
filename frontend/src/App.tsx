@@ -1055,11 +1055,11 @@ const App: React.FC = () => {
                             </div>
                             <div className="md:w-1/2 relative">
                                 <img
-                                    src="/images/community.png"
+                                    src="https://img.freepik.com/free-photo/group-young-african-friends-with-facemasks-using-their-phones-park_181624-41009.jpg?uid=R92480475&ga=GA1.1.427251594.1742837316&w=740"
                                         alt="M-Chama Community"
                                     className="w-full h-full object-cover object-top"
                                 />
-                                <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+                                <div className="absolute inset-0  flex items-center justify-center">
                                     <div className="text-center text-white p-6">
                                         <h3 className="text-2xl font-bold mb-2">
                                             Join Our Community
