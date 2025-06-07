@@ -916,7 +916,8 @@ const App: React.FC = () => {
                     <div className="grid md:grid-cols-2 gap-12 items-center">
                         <div>
                             <img
-                                src=alt="M-Chama Security"
+                                src="/m-chama-security.png"
+                                    alt="M-Chama Security"
                                 className="w-full rounded-lg shadow-lg"
                             />
                         </div>
