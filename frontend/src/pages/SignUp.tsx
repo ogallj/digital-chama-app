@@ -1,6 +1,8 @@
 // The exported code uses Tailwind CSS. Install Tailwind CSS in your dev environment to ensure all styles work.
 
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 
 const App: React.FC = () => {
     // Form state
@@ -447,4 +449,4 @@ const App: React.FC = () => {
     );
 };
 
-export default App;
+export default SignUp;
