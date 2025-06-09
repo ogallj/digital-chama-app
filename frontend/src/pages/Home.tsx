@@ -2,11 +2,12 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import "../App.css"; // Import your Tailwind CSS styles
+import '@fortawesome/fontawesome-free/css/all.min.css';
 //import "font-awesome/css/font-awesome.min.css"; // Import Font Awesome for icons
 //import "react-toastify/dist/ReactToastify.css"; // Import Toastify styles
 
 
-const App: React.FC = () => {
+const Home: React.FC = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
     const [loginForm, setLoginForm] = useState({
@@ -1259,4 +1260,4 @@ const App: React.FC = () => {
         </div>
     );
 };
-export default App;
+export default Home;
