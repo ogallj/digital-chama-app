@@ -1,12 +1,15 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
-import '@fortawesome/fontawesome-free/css/all.min.css';
+// src/App.tsx
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import SignUp from './pages/SignUp'
 
+const App = () => {
+    return (
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/signup" element={<SignUp />} />
+        </Routes>
+    )
+}
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+export default App
