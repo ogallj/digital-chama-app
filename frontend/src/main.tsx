@@ -1,15 +1,15 @@
-// src/App.tsx
-import { Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
-import SignUp from './pages/SignUp.tsx'
+// src/main.tsx
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
+import App from './App.tsx'
+import './index.css'
+import '@fortawesome/fontawesome-free/css/all.min.css'
 
-const App = () => {
-    return (
-        <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/signup" element={<SignUp />} />
-        </Routes>
-    )
-}
-
-export default App
+createRoot(document.getElementById('root')!).render(
+    <StrictMode>
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+    </StrictMode>
+)
