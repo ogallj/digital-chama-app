@@ -1,23 +1,5 @@
 // The exported code uses Tailwind CSS. Install Tailwind CSS in your dev environment to ensure all styles work.
 import React, { useState } from "react";
-// src/pages/Home.tsx
-import { Link } from 'react-router-dom'
-
-const Home = () => {
-    return (
-        <div className="min-h-screen flex flex-col items-center justify-center bg-white">
-            <h1 className="text-4xl font-bold mb-4 text-green-600">Welcome to M-Chama</h1>
-            <p className="mb-4">Manage your group savings easily</p>
-            <Link to="/signup">
-                <button className="bg-[#00ff00] text-white px-6 py-3 rounded hover:bg-green-600 transition">
-                    Get Started
-                </button>
-            </Link>
-        </div>
-    )
-}
-
-export default Home
 
 import "./App.css"; // Import your Tailwind CSS styles
 //import "font-awesome/css/font-awesome.min.css"; // Import Font Awesome for icons
