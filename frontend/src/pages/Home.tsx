@@ -1,6 +1,6 @@
 // The exported code uses Tailwind CSS. Install Tailwind CSS in your dev environment to ensure all styles work.
 import React, { useState } from "react";
-
+import { Link } from 'react-router-dom';
 import "./App.css"; // Import your Tailwind CSS styles
 //import "font-awesome/css/font-awesome.min.css"; // Import Font Awesome for icons
 //import "react-toastify/dist/ReactToastify.css"; // Import Toastify styles
