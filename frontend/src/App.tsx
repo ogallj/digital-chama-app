@@ -34,7 +34,7 @@ const App: React.FC = () => {
     return (
         <div className="min-h-screen bg-gray-50 font-sans">
             {/* Header Section */}
-            <header className="bg-white shadow-md fixed w-full z-50">
+            <header className="bg-white shadow-md fixed w-full top-0 z-50">
                 <div className="container mx-auto px-4 py-3 flex justify-between items-center">
                     <div className="flex items-center">
                         <div className="text-2xl font-bold text-[#00ff00]">
