@@ -1,7 +1,7 @@
 // src/App.tsx
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
-import SignUp from './pages/SignUp'
+import SignUp from './pages/SignUp.tsx'
 
 const App = () => {
     return (
